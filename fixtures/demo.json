@@ -1,0 +1,27 @@
+{
+  "subject_id": "transcript_privacy-synthetic",
+  "request_key": "transcript_privacy-demo",
+  "payload": {
+    "case_id": "c-1",
+    "segments": [
+      {
+        "segment_id": "s1",
+        "start_ms": 0,
+        "end_ms": 8,
+        "text": "患者电话13800138000"
+      },
+      {
+        "segment_id": "s2",
+        "start_ms": 7,
+        "end_ms": 14,
+        "text": "高血压病需医生复核"
+      }
+    ],
+    "corrections": [
+      {
+        "reviewer": "doctor",
+        "reason": "术语校正"
+      }
+    ]
+  }
+}
